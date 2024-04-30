@@ -151,9 +151,9 @@ declare module 'astro:content' {
   collection: "pages";
   data: InferEntrySchema<"pages">
 } & { render(): Render[".mdoc"] };
-"hidden-page.mdoc": {
-	id: "hidden-page.mdoc";
-  slug: "hidden-page";
+"seniors.mdoc": {
+	id: "seniors.mdoc";
+  slug: "seniors";
   body: string;
   collection: "pages";
   data: InferEntrySchema<"pages">
@@ -176,13 +176,6 @@ declare module 'astro:content' {
 } & { render(): Render[".mdoc"] };
 };
 "projects": {
-"an-actual-design-project.mdoc": {
-	id: "an-actual-design-project.mdoc";
-  slug: "an-actual-design-project";
-  body: string;
-  collection: "projects";
-  data: InferEntrySchema<"projects">
-} & { render(): Render[".mdoc"] };
 "data-sphere-innovations.mdoc": {
 	id: "data-sphere-innovations.mdoc";
   slug: "data-sphere-innovations";
@@ -221,13 +214,6 @@ declare module 'astro:content' {
 "unpublished-page.mdoc": {
 	id: "unpublished-page.mdoc";
   slug: "unpublished-page";
-  body: string;
-  collection: "projects";
-  data: InferEntrySchema<"projects">
-} & { render(): Render[".mdoc"] };
-"you-wouldn-t-download-a-hedgehog.mdoc": {
-	id: "you-wouldn-t-download-a-hedgehog.mdoc";
-  slug: "you-wouldn-t-download-a-hedgehog";
   body: string;
   collection: "projects";
   data: InferEntrySchema<"projects">

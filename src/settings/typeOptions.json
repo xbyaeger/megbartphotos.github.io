@@ -14,7 +14,7 @@
     "marginBottom": "0.5rem"
   },
   "h1": {
-    "fontFamily": "fontStack3",
+    "fontFamily": "fontStack1",
     "fontWeight": "700",
     "fontStyle": "normal",
     "fontSize": "2rem",
@@ -24,7 +24,7 @@
     "marginBottom": "2em"
   },
   "h2": {
-    "fontFamily": "fontStack2",
+    "fontFamily": "fontStack1",
     "fontWeight": "700",
     "fontStyle": "normal",
     "fontSize": "1.5rem",
@@ -34,7 +34,7 @@
     "marginBottom": "0.5em"
   },
   "h3": {
-    "fontFamily": "fontStack2",
+    "fontFamily": "fontStack1",
     "fontWeight": "700",
     "fontStyle": "normal",
     "fontSize": "1.17NaNrem",
@@ -44,7 +44,7 @@
     "marginBottom": "1em"
   },
   "h4": {
-    "fontFamily": "fontStack2",
+    "fontFamily": "fontStack1",
     "fontWeight": "700",
     "fontStyle": "normal",
     "fontSize": "1NaNrem",

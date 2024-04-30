@@ -1,5 +1,5 @@
 {
-  "siteTitle": "Your Name Here",
+  "siteTitle": "MegBartPhotos",
   "position": {
     "discriminant": "top",
     "value": {
@@ -17,9 +17,9 @@
     "subItemIndent": "10px"
   },
   "colors": {
-    "backgroundColor": "#9cacff87",
+    "backgroundColor": "#3d3d3d",
     "menuHoverColor": "#ffffff80",
-    "dropdownColor": "#0a0057ed",
+    "dropdownColor": "#3d3d3d",
     "dropdownHoverColor": "#ffffff80"
   },
   "typography": {
@@ -29,7 +29,7 @@
       "fontStyle": "normal",
       "fontSize": "1.5rem",
       "lineHeight": 1,
-      "color": "#0a0057",
+      "color": "#ffffff",
       "marginTop": "0.5rem",
       "marginBottom": "0.5rem"
     },
@@ -44,12 +44,12 @@
       "marginBottom": "4px"
     },
     "menuText": {
-      "fontFamily": "fontStack3",
+      "fontFamily": "fontStack1",
       "fontWeight": "400",
       "fontStyle": "normal",
       "fontSize": "1.5rem",
       "lineHeight": 1,
-      "color": "#0a0057",
+      "color": "#ffffff",
       "marginTop": "4px",
       "marginBottom": "4px"
     }
