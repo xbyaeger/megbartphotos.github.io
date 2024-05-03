@@ -1,5 +1,5 @@
 ---
-title: ''
+title: Seniors
 hideTitle: true
 sortID: -10
 publishStatus: published
@@ -7,14 +7,16 @@ customNavigation:
   discriminant: false
   value: '1714434701562'
 ---
-{% HeroSection
-   image="/seniors/IMG_7164.jpg"
-   height="33vh"
-   width="100vw"
-   parallax=true
-   showPanel={discriminant: true, value: {panelWidth: "100%", panelColor: "#00000061", textColor: "#ffffff"}} %}
+{% CustomWidth width="100vw" customClass="Seniors" %}
 # Seniors
-{% /HeroSection %}
+{% /CustomWidth %}
+
+{% HeroSection
+   image="/seniors/grad.png"
+   height="700px"
+   width="100%"
+   parallax=false
+   showPanel={discriminant: false, value: "1714694797373"} /%}
 
 {% MultiColumn
    justifyContent="space-between"
@@ -22,7 +24,7 @@ customNavigation:
    flexDirection="row"
    gap="30px" %}
 {% Column targetWidth="300px" flexGrow=false %}
-![](../../assets/images/pages/seniors/IMG_7165.jpg)
+![girl posing in front of colum ](../../assets/images/pages/seniors/seniorpic.png)
 
 ## 
 {% /Column %}
@@ -40,8 +42,7 @@ Each additional outfit - **$10**
 
 10 additional edited photos - **$15**
 
-Each additional location - **$20**\
-\
+Each additional location - **$20**
 {% /Column %}
 {% /MultiColumn %}
 
@@ -49,4 +50,34 @@ Each additional location - **$20**\
    justifyContent="space-between"
    alignItems="flex-start"
    flexDirection="row"
-   gap="30px" /%}
+   gap="30px" %}
+{% Column targetWidth="300px" flexGrow=false %}
+![girl holding decorated grad cap](../../assets/images/pages/seniors/livi.png)
+
+## 
+{% /Column %}
+
+{% Column targetWidth="100px" flexGrow=true %}
+## **Cap & Gown Packages**
+
+Single C&G Package 20 edited digital photos, 1 hour, 1 location, 1 outfit - **$150**\
+\
+Group C&G Package - 30 edited digital photos, 1 hour, 1 location, 1 outfit - **$200**
+
+## **Add Ons**
+
+Each additional outfit - **$10**
+
+10 additional edited photos - **$15**
+
+Each additional location - **$20**
+{% /Column %}
+{% /MultiColumn %}
+
+{% ImageGallery
+   options={width: "50%", gap: "1rem", imageSize: "50px", aspectRatio: "2/2"}
+   items=[{image: "/seniors/ines2.png", altText: "girl posing with flag"}, {image: "/seniors/rachelmccoy.png", altText: "group of girls throwing grad caps"}] /%}
+
+{% ImageGallery
+   options={width: "50%", gap: "1rem", imageSize: "50px", aspectRatio: "2/2"}
+   items=[{image: "/seniors/jess.png", altText: "girl leaning against wall"}, {image: "/seniors/viv.jpg", altText: "girl throwing grad cap at camera"}] /%}

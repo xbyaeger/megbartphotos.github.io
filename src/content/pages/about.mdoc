@@ -7,8 +7,12 @@ customNavigation:
   discriminant: true
   value: []
 ---
-{% CustomWidth width="100vw" customClass="hero-section" %}
+{% CustomWidth width="100vw" %}
 # About Me!
+{% /CustomWidth %}
+
+{% CustomWidth width="100vw" %}
+## *My Story*
 {% /CustomWidth %}
 
 Hey there! I’m Meg Bartolick, I started MegBartPhotos in September 2021 after I started taking photos for Fairport High School's yearbook club. I've always had an interest in photography but I absolutely fell in love with sports photography the second I stepped onto the field for the first time.\
@@ -18,7 +22,9 @@ I am super thankful for all my experiences and where they have led me, which is 
 \
 Some of my favorite things are my family and my dogs (Jack, Liv, Emma, and Tallie), my camera, the Maple Leafs, and a really good Shirley temple, in no particular order!
 
-![](../../assets/images/pages/about/IMG_7186.jpg)
+{% ImageGallery
+   options={width: "30%", gap: "1rem", imageSize: "30px", aspectRatio: "1/1"}
+   items=[{image: "/about/fam.jpg"}] /%}
 
 {% ImageGallery
    options={width: "50%", gap: "1rem", imageSize: "50px", aspectRatio: "2/2"}
@@ -27,3 +33,7 @@ Some of my favorite things are my family and my dogs (Jack, Liv, Emma, and Talli
 {% ImageGallery
    options={width: "50%", gap: "1rem", imageSize: "50px", aspectRatio: "2/2"}
    items=[{image: "/about/IMG_8346.jpg"}, {image: "/about/hugcat.jpg"}] /%}
+
+{% ImageGallery
+   options={width: "50%", gap: "1rem", imageSize: "50px", aspectRatio: "2/2"}
+   items=[{image: "/about/menmeg.jpeg"}, {image: "/about/mountain.jpg"}] /%}
