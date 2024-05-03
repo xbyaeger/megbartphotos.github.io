@@ -17,7 +17,7 @@
     "fontFamily": "fontStack1",
     "fontWeight": "700",
     "fontStyle": "normal",
-    "fontSize": "5rem",
+    "fontSize": "3rem",
     "lineHeight": 1.5,
     "color": "#000000",
     "marginTop": "1em",
@@ -25,13 +25,13 @@
   },
   "h2": {
     "fontFamily": "fontStack1",
-    "fontWeight": "700",
-    "fontStyle": "normal",
+    "fontWeight": "400",
+    "fontStyle": "italic",
     "fontSize": "1.5rem",
-    "lineHeight": 1.25,
+    "lineHeight": 1.5,
     "color": "#000000",
-    "marginTop": "0.5em",
-    "marginBottom": "0.5em"
+    "marginTop": "1em",
+    "marginBottom": "2em"
   },
   "h3": {
     "fontFamily": "fontStack1",
