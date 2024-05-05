@@ -149,21 +149,49 @@ declare module 'astro:content' {
   slug: "about";
   body: string;
   collection: "pages";
-  data: InferEntrySchema<"pages">
+  data: any
 } & { render(): Render[".mdoc"] };
 "couples.mdoc": {
 	id: "couples.mdoc";
   slug: "couples";
   body: string;
   collection: "pages";
-  data: InferEntrySchema<"pages">
+  data: any
+} & { render(): Render[".mdoc"] };
+"families.mdoc": {
+	id: "families.mdoc";
+  slug: "families";
+  body: string;
+  collection: "pages";
+  data: any
+} & { render(): Render[".mdoc"] };
+"individuals.mdoc": {
+	id: "individuals.mdoc";
+  slug: "individuals";
+  body: string;
+  collection: "pages";
+  data: any
+} & { render(): Render[".mdoc"] };
+"portfolio.mdoc": {
+	id: "portfolio.mdoc";
+  slug: "portfolio";
+  body: string;
+  collection: "pages";
+  data: any
 } & { render(): Render[".mdoc"] };
 "seniors.mdoc": {
 	id: "seniors.mdoc";
   slug: "seniors";
   body: string;
   collection: "pages";
-  data: InferEntrySchema<"pages">
+  data: any
+} & { render(): Render[".mdoc"] };
+"sports.mdoc": {
+	id: "sports.mdoc";
+  slug: "sports";
+  body: string;
+  collection: "pages";
+  data: any
 } & { render(): Render[".mdoc"] };
 };
 "portfolioGroups": {
@@ -172,14 +200,14 @@ declare module 'astro:content' {
   slug: "all";
   body: string;
   collection: "portfolioGroups";
-  data: InferEntrySchema<"portfolioGroups">
+  data: any
 } & { render(): Render[".mdoc"] };
 "custom-group.mdoc": {
 	id: "custom-group.mdoc";
   slug: "custom-group";
   body: string;
   collection: "portfolioGroups";
-  data: InferEntrySchema<"portfolioGroups">
+  data: any
 } & { render(): Render[".mdoc"] };
 };
 "projects": {
@@ -188,28 +216,28 @@ declare module 'astro:content' {
   slug: "eco-essence";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
 "typography-stuff.mdoc": {
 	id: "typography-stuff.mdoc";
   slug: "typography-stuff";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
 "unlisted-project.mdoc": {
 	id: "unlisted-project.mdoc";
   slug: "unlisted-project";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
 "unpublished-page.mdoc": {
 	id: "unpublished-page.mdoc";
   slug: "unpublished-page";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
 };
 
@@ -221,5 +249,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = typeof import("../src/content/config.js");
+	export type ContentConfig = never;
 }

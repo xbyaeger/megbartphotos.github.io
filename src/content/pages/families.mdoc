@@ -1,0 +1,49 @@
+---
+title: Families
+hideTitle: true
+sortID: 1
+publishStatus: published
+customNavigation:
+  discriminant: false
+  value: '1714758189390'
+---
+{% CustomWidth width="100vw" %}
+# Families
+{% /CustomWidth %}
+
+{% HeroSection
+   image="/families/jerseys2.png"
+   height="700px"
+   width="100%"
+   parallax=false
+   showPanel={discriminant: false, value: "1714759339016"} /%}
+
+{% MultiColumn
+   justifyContent="center"
+   alignItems="flex-start"
+   flexDirection="row"
+   gap="10px" %}
+{% Column targetWidth="300px" flexGrow=false %}
+![pregnancy announcement](../../assets/images/pages/families/announcement.jpg)
+{% /Column %}
+
+{% Column targetWidth="100px" flexGrow=true %}
+## **Prices**
+
+20 edited digital photos, 1 hour, 1 location, 1 outfit - **$200**
+
+30 edited digital photos, 2 hours, 2 locations, 2 outfits - **$250**
+
+## **Add Ons**
+
+Each additional outfit - **$10**
+
+10 additional edited photos - **$15**
+
+Each additional location - **$20**
+{% /Column %}
+{% /MultiColumn %}
+
+{% ImageGallery
+   options={width: "50%", gap: "1rem", imageSize: "50px", aspectRatio: "2/2"}
+   items=[{image: "/families/samandmom.png", altText: "mother and son"}, {image: "/families/baby.jpg", altText: "pregnant woman and husband holding bump"}] /%}

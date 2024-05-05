@@ -1,0 +1,48 @@
+---
+title: Individuals
+hideTitle: true
+publishStatus: published
+customNavigation:
+  discriminant: false
+  value: '1714758148052'
+---
+{% CustomWidth width="100vw" %}
+# Individuals
+{% /CustomWidth %}
+
+{% HeroSection
+   image="/individuals/yeehaw2.png"
+   height="700px"
+   width="100%"
+   parallax=false
+   showPanel={discriminant: false, value: "1714758459212"} /%}
+
+{% MultiColumn
+   justifyContent="center"
+   alignItems="flex-start"
+   flexDirection="row"
+   gap="10px" %}
+{% Column targetWidth="300px" flexGrow=false %}
+![guy holding baseball bat](../../assets/images/pages/individuals/sam.png)
+{% /Column %}
+
+{% Column targetWidth="100px" flexGrow=true %}
+## **Prices**
+
+20 edited digital photos, 1 hour, 1 location, 1 outfit - **$150**
+
+30 edited digital photos, 2 hours, 2 locations, 2 outfits - **$200**
+
+## **Add Ons**
+
+Each additional outfit - **$10**
+
+10 additional edited photos - **$15**
+
+Each additional location - **$20**
+{% /Column %}
+{% /MultiColumn %}
+
+{% ImageGallery
+   options={width: "50%", gap: "1rem", imageSize: "50px", aspectRatio: "2/2"}
+   items=[{image: "/individuals/sam2.png", altText: "portrait of guy"}, {image: "/individuals/emily.jpg", altText: "girl sitting by wall"}] /%}

@@ -22,5 +22,27 @@ customNavigation:
    alignItems="flex-start"
    flexDirection="row"
    gap="10px" %}
-{% Column targetWidth="100px" flexGrow=false /%}
+{% Column targetWidth="300px" flexGrow=false %}
+![couple walking through forest](../../assets/images/pages/couples/annaandj.jpg)
+{% /Column %}
+
+{% Column targetWidth="100px" flexGrow=true %}
+## **Prices**
+
+20 edited digital photos, 1 hour, 1 location, 1 outfit - **$200**
+
+30 edited digital photos, 2 hours, 2 locations, 2 outfits - **$250**
+
+## **Add Ons**
+
+Each additional outfit - **$10**
+
+10 additional edited photos - **$15**
+
+Each additional location - **$20**
+{% /Column %}
 {% /MultiColumn %}
+
+{% ImageGallery
+   options={width: "50%", gap: "1rem", imageSize: "50px", aspectRatio: "2/2"}
+   items=[{image: "/couples/jessandj.jpg", altText: "couple hugging candid"}, {image: "/couples/couple.jpg", altText: "couple kissing on doorstep"}] /%}
