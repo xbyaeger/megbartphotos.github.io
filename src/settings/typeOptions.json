@@ -31,7 +31,7 @@
     "lineHeight": 1.5,
     "color": "#000000",
     "marginTop": "1em",
-    "marginBottom": "2em"
+    "marginBottom": "0em"
   },
   "h3": {
     "fontFamily": "fontStack1",
