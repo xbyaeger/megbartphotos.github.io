@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import Layout from "../layouts/Layout.astro";
+import Footer from "../components/sitelayout/Footer.astro";
 
 const posts = await getCollection("homepage");
 // console.log('homepage',posts);
@@ -12,4 +13,5 @@ const { Content } = await page.render();
 <Layout title={page.data.title || "Home"}>
   {!page.data.hideTitle && <h1>{page.data.title}</h1>}
   <Content />
+  <Footer />
 </Layout>
